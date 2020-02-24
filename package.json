@@ -1,0 +1,22 @@
+{
+  "name": "angular2-customdraggable",
+  "version": "1.0.8",
+  "description": "draggable plugin",
+  "main": "bundles/angular2-draggable.umd.js",
+  "metadata": "angular2-draggable.metadata.json",
+  "module": "angular2-draggable.es5.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "draggable"
+  ],
+  "author": "Firoz P.J",
+  "license": "ISC",
+  "peerDependencies": {
+    "@angular/common": ">=4.0.0",
+    "@angular/compiler": ">=4.0.0",
+    "@angular/core": ">=4.0.0"
+  },
+  "typings": "angular2-draggable.d.ts"
+}
