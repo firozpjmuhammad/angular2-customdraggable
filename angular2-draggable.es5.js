@@ -657,6 +657,7 @@ var AngularDraggableDirective = (function () {
     AngularDraggableDirective.prototype.onMouseUp = function() {
         this.allowDrag = true; 
         $('#'+this.targetdiv).removeClass('dragging');
+        this.resetPosition();
     };
 
     return AngularDraggableDirective;
@@ -720,4 +721,4 @@ AngularDraggableModule.ctorParameters = function () { return []; };
  * Generated bundle index. Do not edit.
  */
 export { AngularDraggableModule, AngularDraggableDirective as ɵa };
-//# sourceMappingURL=angular2-draggable.es5.js.map
+
