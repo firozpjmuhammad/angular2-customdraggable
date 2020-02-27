@@ -640,6 +640,7 @@ var AngularDraggableDirective = (function () {
     AngularDraggableDirective.prototype.onMouseUp = function() {
         this.allowDrag = true; 
         $('#'+this.targetdiv).removeClass('dragging');
+	this.resetPosition();
     };
     return AngularDraggableDirective;
 }());
